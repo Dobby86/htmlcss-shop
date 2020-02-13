@@ -6,6 +6,11 @@ img {
 body {
     background-color: black;
  }
+ p {
+     position: absolute;
+ }
+
+
  .cerchio {
     border-radius: 50%;
     padding: 20px;
@@ -13,6 +18,19 @@ body {
     right: 13px;
     background-color: yellow;
     position: absolute;
+
+}
+
+
+.cuori {
+    bottom: 2px;
+    right: 50%;
+    position: absolute;
+
+}
+
+.riga :hover .cuori {
+    color:red;
 
 }
 
@@ -56,4 +74,5 @@ body {
     width:33%;
     height:500px;
     display: inline-block;
+
 }
