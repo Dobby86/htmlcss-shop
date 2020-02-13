@@ -1,6 +1,29 @@
+img {
+    position: relative;
+
+}
+
 body {
     background-color: black;
  }
+ .cerchio {
+    border-radius: 50%;
+    padding: 20px;
+    top: 2px;
+    right: 13px;
+    background-color: yellow;
+    position: absolute;
+
+}
+
+.rosso {
+    border-radius: 50%;
+    padding: 20px;
+    top: 2px;
+    right: 13px;
+    background-color: red;
+    position: absolute;
+}
 
 .riga {
     background-color: black;
@@ -11,26 +34,25 @@ body {
 
 }
 .tablet {
-    background-color:yellow;
     width:33%;
     height:500px;
-    left: 20px;
-    top: 20px;
     display: inline-block;
+    position: relative;
 }
-#tablet {
+.img-tablet {
     width: 100%;
     height: 500px;
+    position: relative;
 }
 
 .iphone {
-    background-color: red;
     width:33%;
     height:500px;
     display: inline-block;
+    position: relative;
+
 }
 .cuffie {
-    background-color: blue;
     width:33%;
     height:500px;
     display: inline-block;
